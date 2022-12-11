@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F824EF0-9B42-36DE-B8DF-AE89F315698C" name="TB_TABULEIRO_POSICAO">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:08:13 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>tabuleiro</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_partida" id="9F51C508-58A5-CC7F-3E66-1D97D4991218">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-01 01:58:41 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6D0D029-3EC5-2931-2C88-0184A76FA173" referredColumn="0B214F77-A4DF-404F-C0ED-FC5EA43D7F2C"/>
+</associations>
+</Column>
+<Column name="Linha" id="D332920E-CB66-2B98-DB53-9A3B6B3C3119">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:13:32 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Coluna" id="1532F534-7424-2D17-D718-27C118408BB2">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:13:32 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cor_da_casa" id="2645C7AA-8936-1BAD-4BC9-C52794C36943">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-01 02:35:36 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_peca" id="A374A5FE-0368-4C56-0271-14E20421993E">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:22:58 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45C90056-B6EC-7E5C-8F67-2CFC13DDAFA8" referredColumn="F5622AE2-965A-AB93-619A-36A538D5CEEB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6C072EA-57DB-DCDF-6307-DC67EA399D69" name="TB_TABULEIRO_PK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:13:32 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D332920E-CB66-2B98-DB53-9A3B6B3C3119"/>
+<colUsage columnID="1532F534-7424-2D17-D718-27C118408BB2"/>
+<colUsage columnID="9F51C508-58A5-CC7F-3E66-1D97D4991218"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="725E6099-115C-8E72-5603-DCCC335CBBBB" name="TB_TABULEIRO_POSICAO_TB_PECA_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:22:58 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A374A5FE-0368-4C56-0271-14E20421993E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80CFDDF1-03B7-F182-5000-0A21C9874675" name="TB_TABULEIRO_POSICAO_TB_PARTIDA_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-01 01:58:41 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F51C508-58A5-CC7F-3E66-1D97D4991218"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

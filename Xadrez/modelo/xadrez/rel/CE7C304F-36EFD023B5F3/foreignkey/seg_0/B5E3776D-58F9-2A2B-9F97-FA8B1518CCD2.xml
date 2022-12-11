@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B5E3776D-58F9-2A2B-9F97-FA8B1518CCD2" containerWithKeyObject="1CA469AC-D14D-B17F-5D8D-247AB0BAB6E5" localFKIndex="0D33A8A1-75A0-AAE0-2632-BCDD85329F44" name="TB_RESULTADO_TB_JOGADOR_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-09 15:07:23 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EA43F0DB-1C2D-FFBD-CCBE-E9CA54D9E32C</referredTableID>
+<keyObject>3576DC67-8A33-0EC7-7381-F93EDFAFD24C</keyObject>
+<referredKeyID>3576DC67-8A33-0EC7-7381-F93EDFAFD24C</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

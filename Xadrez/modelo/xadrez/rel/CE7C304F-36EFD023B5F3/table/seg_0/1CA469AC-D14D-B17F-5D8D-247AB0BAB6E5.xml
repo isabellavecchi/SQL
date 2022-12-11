@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CA469AC-D14D-B17F-5D8D-247AB0BAB6E5" name="TB_RESULTADO">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-09 15:06:07 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<abbreviation>resultado</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_partida" id="12B97424-6CF4-3E88-1885-801BBECC8A2C">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-09 15:07:35 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="422023B7-7595-079C-0C50-C22259F8B31B" referredColumn="0B214F77-A4DF-404F-C0ED-FC5EA43D7F2C"/>
+</associations>
+</Column>
+<Column name="id_jogador" id="189270B4-9883-EB0C-6904-12227904A7A1">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-09 15:07:23 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5E3776D-58F9-2A2B-9F97-FA8B1518CCD2" referredColumn="73523C4A-8250-22EF-8E9E-93874C814633"/>
+</associations>
+</Column>
+<Column name="resultado" id="19CAF13B-6FA6-5096-B895-D160A2C3B32A">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-09 15:07:17 UTC</createdTime>
+<commentInRDBMS>0 derrota&lt;br/&gt;1 empate&lt;br/&gt;2 vencedor</commentInRDBMS>
+<ownerDesignName>xadrez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D33A8A1-75A0-AAE0-2632-BCDD85329F44" name="TB_RESULTADO_TB_JOGADOR_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-09 15:07:23 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="189270B4-9883-EB0C-6904-12227904A7A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="244F2456-E136-969A-86B8-A6D7AFDFD212" name="TB_RESULTADO_TB_PARTIDA_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-09 15:07:35 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12B97424-6CF4-3E88-1885-801BBECC8A2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

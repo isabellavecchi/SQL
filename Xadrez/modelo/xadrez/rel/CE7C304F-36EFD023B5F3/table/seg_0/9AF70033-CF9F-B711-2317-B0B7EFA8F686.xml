@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9AF70033-CF9F-B711-2317-B0B7EFA8F686" name="TB_JOGADA">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-30 05:52:36 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<abbreviation>jogada</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_jogada" id="DEE0920C-8F37-D9A3-7A3E-078ECBC3CB01">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-30 05:59:01 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_partida" id="338A78F5-531A-C11A-67DB-78CC70F091C9">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-01 02:03:41 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E09D092-C402-6B6F-50E7-9F55DA605E40" referredColumn="0B214F77-A4DF-404F-C0ED-FC5EA43D7F2C"/>
+</associations>
+</Column>
+<Column name="id_jogador" id="898B7BC1-5C9F-48EB-1C21-9BC90779A322">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-30 06:00:21 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF61AEFE-9DC0-A192-8E21-754D45D4B38B" referredColumn="73523C4A-8250-22EF-8E9E-93874C814633"/>
+</associations>
+</Column>
+<Column name="id_peca" id="4773AB16-01C1-6478-9A99-68C03C2BF8FD">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-30 05:59:41 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="307701D6-9A8E-D3C1-EA5C-C5AB2BE8E0EB" referredColumn="F5622AE2-965A-AB93-619A-36A538D5CEEB"/>
+</associations>
+</Column>
+<Column name="mov_horizontal" id="BC9A0058-F433-36A2-E19D-5A0A75F0536C">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-30 06:10:51 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mov_vertical" id="CA64864B-A5F0-107B-D436-A65C618DE621">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-30 06:04:14 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inicio" id="6BC65DC5-1B2B-A2C9-894E-AC05ABD257DB">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-01 02:06:25 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Capturou" id="8B1EC758-CED6-DD02-5378-D34EBB6F15E6">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-03 21:33:55 UTC</createdTime>
+<commentInRDBMS>1)true&lt;br/&gt;0)false</commentInRDBMS>
+<ownerDesignName>xadrez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="xeque" id="48233F94-F922-E25A-DC66-7614CC808E6B">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-03 21:34:58 UTC</createdTime>
+<commentInRDBMS>0) nao&lt;br/&gt;1) xeque&lt;br/&gt;2) xeque-mate</commentInRDBMS>
+<ownerDesignName>xadrez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C4ABDE4-07D3-DE60-6C6D-DD2E7D494816" name="TB_JOGADA_PK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-30 05:59:01 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEE0920C-8F37-D9A3-7A3E-078ECBC3CB01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A37CBCF6-5A5D-6E14-8C8B-31F1411C2929" name="TB_JOGADA_TB_PECA_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-30 05:59:41 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4773AB16-01C1-6478-9A99-68C03C2BF8FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86F5853D-2489-24D9-6E6C-EAF41BD7D514" name="TB_JOGADA_TB_JOGADOR_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-30 06:00:21 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="898B7BC1-5C9F-48EB-1C21-9BC90779A322"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="505A8A28-5F2E-0A6B-44F1-801D79136D11" name="TB_JOGADA_TB_PARTIDA_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-01 02:03:41 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="338A78F5-531A-C11A-67DB-78CC70F091C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

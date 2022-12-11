@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4877E97E-9148-67A0-5700-E769496BA3CC" containerWithKeyObject="92C16C79-5820-D466-0104-4462FEBB22E0" localFKIndex="0F53CA6F-9553-4ADC-0146-B3E1D0D6AA72" name="TB_HISTORICO_TB_JOGADA_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-30 06:12:59 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9AF70033-CF9F-B711-2317-B0B7EFA8F686</referredTableID>
+<keyObject>4C4ABDE4-07D3-DE60-6C6D-DD2E7D494816</keyObject>
+<referredKeyID>4C4ABDE4-07D3-DE60-6C6D-DD2E7D494816</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C6D0D029-3EC5-2931-2C88-0184A76FA173" containerWithKeyObject="4F824EF0-9B42-36DE-B8DF-AE89F315698C" localFKIndex="80CFDDF1-03B7-F182-5000-0A21C9874675" name="TB_TABULEIRO_POSICAO_TB_PARTIDA_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-01 01:58:41 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>391E7DE7-C345-456A-B958-5B608A79AC57</referredTableID>
+<keyObject>646EEF20-3FDF-39DB-AAF4-8030159321C7</keyObject>
+<referredKeyID>646EEF20-3FDF-39DB-AAF4-8030159321C7</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

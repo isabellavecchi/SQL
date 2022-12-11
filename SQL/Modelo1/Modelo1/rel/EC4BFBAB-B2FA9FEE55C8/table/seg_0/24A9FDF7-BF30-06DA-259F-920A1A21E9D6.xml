@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24A9FDF7-BF30-06DA-259F-920A1A21E9D6" name="TB_ATR_FILME">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:54:09 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<abbreviation>atr_filme</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ator_atriz" id="FC93C373-0FCA-9C65-8F0B-5D3633BAE550">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:55:43 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5D512F1-9106-6796-ECBD-74E9A918BE97" referredColumn="397E3803-BC2C-14DC-5E36-509549711898"/>
+</associations>
+</Column>
+<Column name="id_filme1" id="C8244AF4-73F2-0D8E-E5E2-D66656AB0F93">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:55:39 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84E4523B-FF3A-3983-5234-5196A4FC59BD" referredColumn="4A77726A-FAE2-6E7D-380D-A4BAB53B7D8F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56618AF5-3C93-3E0D-766E-15144B1270A6" name="TB_ATR_FILME_TB_FILME_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:55:39 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8244AF4-73F2-0D8E-E5E2-D66656AB0F93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90DBBBFA-150E-E392-926C-7342AE97EC57" name="TB_ATR_FILME_TB_ATOR_ATRIZ_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:55:43 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC93C373-0FCA-9C65-8F0B-5D3633BAE550"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

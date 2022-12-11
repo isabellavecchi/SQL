@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E715CA7-3E59-1A61-9B1F-0A8C67C9B49D" name="TB_FILME">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:14:53 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<abbreviation>filme</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_filme" id="4A77726A-FAE2-6E7D-380D-A4BAB53B7D8F">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:22:19 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="filme" id="9666DE76-4A94-1FF5-276F-D9EE581AFDD3">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:22:19 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="8F0A7E1B-3AF4-CF73-B7ED-B2613B22A6C9">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:22:19 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="diretor_a" id="E06523F1-9D07-7964-A992-DB301EDC4211">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:22:19 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="roteirista" id="E49A5D02-CD14-8F83-DCD7-16694E7D5062">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:22:19 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_lancamento" id="EF80F11C-62E0-4A79-7825-8CD8D7D7FE6A">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:22:19 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota" id="727A8A18-87FD-F1DD-81F8-1DD15618CC62">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:22:19 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="324414FE-D05D-9B4A-8216-FE632972EB74" name="TB_FILME_PK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:22:19 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A77726A-FAE2-6E7D-380D-A4BAB53B7D8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

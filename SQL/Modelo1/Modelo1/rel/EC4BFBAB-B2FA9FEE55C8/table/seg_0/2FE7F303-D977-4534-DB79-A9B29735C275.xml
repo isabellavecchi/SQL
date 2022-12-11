@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FE7F303-D977-4534-DB79-A9B29735C275" name="TB_PARA_ASSISTIR">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:39:14 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<abbreviation>para_assistir</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario1" id="41BABE2B-17E5-4E64-A07B-F07475C1F688">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:53:03 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66A04B7D-B41E-39DE-4AA0-C102A00FF368" referredColumn="052C382C-7083-04DF-4A9F-69C11311FC1A"/>
+</associations>
+</Column>
+<Column name="id_filme1" id="543FBB64-6F9C-818C-005F-3D44569355A4">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:52:50 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CFF45F9-DB73-D568-CF27-1E46515F073E" referredColumn="4A77726A-FAE2-6E7D-380D-A4BAB53B7D8F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11C6B6EB-3914-5967-25C4-A70D633A8C4D" name="TB_PARA_ASSISTIR_PK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:44:17 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41BABE2B-17E5-4E64-A07B-F07475C1F688"/>
+<colUsage columnID="543FBB64-6F9C-818C-005F-3D44569355A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E97167A1-1FCE-BCBB-C5E2-07AF8481A9DA" name="TB_PARA_ASSISTIR_TB_FILME_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:52:50 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="543FBB64-6F9C-818C-005F-3D44569355A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D331DCC2-28F6-8569-DD0E-F61902876080" name="TB_PARA_ASSISTIR_TB_USUARIO_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:53:03 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41BABE2B-17E5-4E64-A07B-F07475C1F688"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

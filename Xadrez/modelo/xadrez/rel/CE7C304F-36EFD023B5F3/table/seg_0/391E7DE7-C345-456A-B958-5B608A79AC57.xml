@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="391E7DE7-C345-456A-B958-5B608A79AC57" name="TB_PARTIDA">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:39:01 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<abbreviation>partida</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_partida" id="0B214F77-A4DF-404F-C0ED-FC5EA43D7F2C">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:40:07 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_jogador_1" id="0A9F3BC7-3B88-0ED6-E79E-20D091B0B8A7">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:40:31 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EF69BA2-58C3-1CD3-4406-6CB18DB28CBE" referredColumn="73523C4A-8250-22EF-8E9E-93874C814633"/>
+</associations>
+</Column>
+<Column name="id_jogador_2" id="B2A9DDBA-CC0F-2588-B356-57D16155FE50">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:40:40 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A80A5E9-404C-4A59-54A8-128E3A791109" referredColumn="73523C4A-8250-22EF-8E9E-93874C814633"/>
+</associations>
+</Column>
+<Column name="inicio" id="C1912467-8DE0-E424-2F81-3C4D3E70ADD7">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:41:39 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fim" id="751FF4DF-9F82-DA50-1461-C39B1B154C5F">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:41:39 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="646EEF20-3FDF-39DB-AAF4-8030159321C7" name="TB_PARTIDA_PK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:54:35 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B214F77-A4DF-404F-C0ED-FC5EA43D7F2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5524F14D-AC74-69DF-306F-53EB23F413BF" name="TB_PARTIDA_TB_JOGADOR_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:40:31 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A9F3BC7-3B88-0ED6-E79E-20D091B0B8A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C6B87A2-22C7-85B9-8BDF-8ACF19A297D4" name="TB_PARTIDA_TB_JOGADOR_FKv1">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:40:40 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2A9DDBA-CC0F-2588-B356-57D16155FE50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

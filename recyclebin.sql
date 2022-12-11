@@ -1,0 +1,7 @@
+ALTER SESSION SET recyclebin = OFF;
+
+ALTER SYSTEM SET recyclebin = OFF;
+
+PURGE RECYCLEBIN;
+
+SELECT * FROM recyclebin;

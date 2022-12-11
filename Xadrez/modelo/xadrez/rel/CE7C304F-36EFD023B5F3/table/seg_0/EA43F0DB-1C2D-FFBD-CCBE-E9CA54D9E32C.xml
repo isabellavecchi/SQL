@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA43F0DB-1C2D-FFBD-CCBE-E9CA54D9E32C" name="TB_JOGADOR">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:26:58 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<abbreviation>jogador</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_jogador" id="73523C4A-8250-22EF-8E9E-93874C814633">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:28:17 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="AE5C3D7D-0F3E-B624-8B50-363BB2E4FC8F">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:28:17 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="flag_pessoa" id="7793CCC7-D44E-36AD-2FD7-5B6002A45BE0">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:28:17 UTC</createdTime>
+<commentInRDBMS>1 pessoa&lt;br/&gt;0 computador</commentInRDBMS>
+<ownerDesignName>xadrez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3576DC67-8A33-0EC7-7381-F93EDFAFD24C" name="TB_JOGADOR_PK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:28:42 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73523C4A-8250-22EF-8E9E-93874C814633"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56B978EA-299D-A4CC-B7F0-9774D3435520" name="TB_JOGADOR__UN">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-01 13:06:36 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE5C3D7D-0F3E-B624-8B50-363BB2E4FC8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

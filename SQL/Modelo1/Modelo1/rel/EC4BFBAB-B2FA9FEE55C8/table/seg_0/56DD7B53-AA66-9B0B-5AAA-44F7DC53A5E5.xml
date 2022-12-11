@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56DD7B53-AA66-9B0B-5AAA-44F7DC53A5E5" name="TB_AVALIACOES">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:23:40 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<abbreviation>avaliacoes</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario1" id="BC7A6057-1FCD-E0A1-83C3-F085EDDD3D04">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:51:45 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4328FED2-630A-2317-E3AD-5BDC931D4567" referredColumn="052C382C-7083-04DF-4A9F-69C11311FC1A"/>
+</associations>
+</Column>
+<Column name="id_filme1" id="08A06625-1722-2A89-F85B-650E75DA5C3B">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:51:02 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA880524-690C-C9BB-471F-6E4DAC0CCF5B" referredColumn="4A77726A-FAE2-6E7D-380D-A4BAB53B7D8F"/>
+</associations>
+</Column>
+<Column name="nota_dada" id="DBDE9924-966C-CA38-B186-961F21CDC5E5">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:28:21 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="9B5CBCCF-70F4-D484-0269-6E60827C19EF">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:28:21 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="165E8044-1DD6-BE3E-122C-BB2B2F6BACC0" name="TB_AVALIACOES_PK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:31:45 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC7A6057-1FCD-E0A1-83C3-F085EDDD3D04"/>
+<colUsage columnID="08A06625-1722-2A89-F85B-650E75DA5C3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05A0C5B8-0539-5959-7A96-AAC04962D891" name="TB_AVALIACOES__UNv1">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:32:18 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B5CBCCF-70F4-D484-0269-6E60827C19EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFA44C3E-0F9F-5D82-2944-5500F7D2CD8B" name="TB_AVALIACOES_TB_FILME_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:51:02 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08A06625-1722-2A89-F85B-650E75DA5C3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11AFD85F-9786-3197-26D8-BA5FF2D932F4" name="TB_AVALIACOES_TB_USUARIO_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:51:45 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC7A6057-1FCD-E0A1-83C3-F085EDDD3D04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

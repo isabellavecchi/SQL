@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35C7D93A-0061-E68C-FE21-C18254F0D699" name="TB_PECA">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:13:53 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<abbreviation>peca</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_peca" id="F5622AE2-965A-AB93-619A-36A538D5CEEB">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:16:05 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cor_peca" id="68209C7C-B016-6188-50C8-476DE164C293">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:52:12 UTC</createdTime>
+<commentInRDBMS>1 preta&lt;br/&gt;0 branca</commentInRDBMS>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="AC6AE0B3-456F-B357-DAD4-8345A80DC6CB">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:16:05 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor" id="6CC71503-0E2A-54F0-9EBD-C67633D8EC6D">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-01 02:25:52 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="flag_vida" id="E441E3DC-F61A-16BB-E6DA-D73C0DE6083B">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:16:05 UTC</createdTime>
+<commentInRDBMS>1 vivo&lt;br/&gt;0 morto</commentInRDBMS>
+<ownerDesignName>xadrez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="602F5575-2ACD-9C87-09FC-A06C30883739" name="TB_PECA_PK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:21:10 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5622AE2-965A-AB93-619A-36A538D5CEEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

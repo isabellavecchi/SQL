@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7BEAF1F7-13C2-41A4-4118-D23EE616D124" name="TB_USUARIO">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:33:06 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<abbreviation>usuario</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="052C382C-7083-04DF-4A9F-69C11311FC1A">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:38:39 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="582065EE-945A-E0B3-ACE5-7E87E9A91625">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:38:39 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sobrenome" id="5CA87582-E876-D196-CBC8-06B51DB9BCD8">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:38:39 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="E694EDA9-D820-8AFF-FDBB-7426CE7348A1">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:38:39 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="AADE2113-2161-2C77-F60B-FF6767F9F84C">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:38:39 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="A156F188-925D-2C40-D899-CDD9B626C24D">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:38:39 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<constraintName>CK01_TB_USUARIO</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="LENGTH(senha) &gt;= 8"/>
+</checkConstraint>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82552BCB-B523-03BB-9D48-0210FA8240B6" name="TB_USUARIO_PK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:38:39 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="052C382C-7083-04DF-4A9F-69C11311FC1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57A53269-8A37-BCD5-4356-704A4FC1F9A5" name="TB_USUARIO__UN">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:38:39 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E694EDA9-D820-8AFF-FDBB-7426CE7348A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

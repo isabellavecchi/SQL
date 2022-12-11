@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="82588FBA-D7A9-6B31-9684-74B5FD6F684B" containerWithKeyObject="92C16C79-5820-D466-0104-4462FEBB22E0" localFKIndex="033C613E-A7AC-E87C-4D98-A476892E25E1" name="TB_HISTORICO_TB_TABULEIRO_POSICAO_FKv1">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 18:01:05 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4F824EF0-9B42-36DE-B8DF-AE89F315698C</referredTableID>
+<keyObject>F6C072EA-57DB-DCDF-6307-DC67EA399D69</keyObject>
+<referredKeyID>F6C072EA-57DB-DCDF-6307-DC67EA399D69</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

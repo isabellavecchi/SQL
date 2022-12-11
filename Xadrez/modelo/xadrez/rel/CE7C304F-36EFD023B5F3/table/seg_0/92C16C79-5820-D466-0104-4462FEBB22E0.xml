@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92C16C79-5820-D466-0104-4462FEBB22E0" name="TB_HISTORICO">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:55:07 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<abbreviation>historico</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_historia" id="BE326A71-A259-0C38-4FCE-F9C61E242FB8">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-04 08:15:22 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_partida" id="58E0B6BE-6451-9BF7-1FD1-FE793140D01D">
+<createdBy>isabella</createdBy>
+<createdTime>2020-10-03 21:35:15 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5132EDC2-ACE7-C9B1-43F0-B810A06FE133" referredColumn="9F51C508-58A5-CC7F-3E66-1D97D4991218"/>
+<colAssociation fkAssociation="82588FBA-D7A9-6B31-9684-74B5FD6F684B" referredColumn="9F51C508-58A5-CC7F-3E66-1D97D4991218"/>
+</associations>
+</Column>
+<Column name="id_jogada" id="DC16559B-5FE0-F8C9-B869-BA579233F565">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-30 06:12:59 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4877E97E-9148-67A0-5700-E769496BA3CC" referredColumn="DEE0920C-8F37-D9A3-7A3E-078ECBC3CB01"/>
+</associations>
+</Column>
+<Column name="Linha_old" id="4845A446-6D8B-424E-7476-3C08320E4B5D">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:58:01 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5132EDC2-ACE7-C9B1-43F0-B810A06FE133" referredColumn="D332920E-CB66-2B98-DB53-9A3B6B3C3119"/>
+</associations>
+</Column>
+<Column name="Coluna_old" id="C0235AB8-8AB2-F0F7-E06B-55535609C69C">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:58:01 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5132EDC2-ACE7-C9B1-43F0-B810A06FE133" referredColumn="1532F534-7424-2D17-D718-27C118408BB2"/>
+</associations>
+</Column>
+<Column name="Linha_new" id="BC0E88B0-5889-8B8F-E78D-C80268023A05">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 18:01:05 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82588FBA-D7A9-6B31-9684-74B5FD6F684B" referredColumn="D332920E-CB66-2B98-DB53-9A3B6B3C3119"/>
+</associations>
+</Column>
+<Column name="Coluna_new" id="2710FECE-A14D-D14F-FE1F-7B2B169DC54F">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 18:01:05 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82588FBA-D7A9-6B31-9684-74B5FD6F684B" referredColumn="1532F534-7424-2D17-D718-27C118408BB2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED0CB6C6-7C7F-8C41-2E4B-7D84A15CFE34" name="TB_HISTORICO_TB_TABULEIRO_POSICAO_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 17:58:01 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4845A446-6D8B-424E-7476-3C08320E4B5D"/>
+<colUsage columnID="C0235AB8-8AB2-F0F7-E06B-55535609C69C"/>
+<colUsage columnID="58E0B6BE-6451-9BF7-1FD1-FE793140D01D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="033C613E-A7AC-E87C-4D98-A476892E25E1" name="TB_HISTORICO_TB_TABULEIRO_POSICAO_FKv1">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-23 18:01:05 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC0E88B0-5889-8B8F-E78D-C80268023A05"/>
+<colUsage columnID="2710FECE-A14D-D14F-FE1F-7B2B169DC54F"/>
+<colUsage columnID="58E0B6BE-6451-9BF7-1FD1-FE793140D01D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F53CA6F-9553-4ADC-0146-B3E1D0D6AA72" name="TB_HISTORICO_TB_JOGADA_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-30 06:12:59 UTC</createdTime>
+<ownerDesignName>xadrez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC16559B-5FE0-F8C9-B869-BA579233F565"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

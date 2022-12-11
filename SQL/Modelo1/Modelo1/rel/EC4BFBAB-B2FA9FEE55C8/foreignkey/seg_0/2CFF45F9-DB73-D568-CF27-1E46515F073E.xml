@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2CFF45F9-DB73-D568-CF27-1E46515F073E" containerWithKeyObject="2FE7F303-D977-4534-DB79-A9B29735C275" localFKIndex="E97167A1-1FCE-BCBB-C5E2-07AF8481A9DA" name="TB_PARA_ASSISTIR_TB_FILME_FK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:52:50 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2E715CA7-3E59-1A61-9B1F-0A8C67C9B49D</referredTableID>
+<keyObject>324414FE-D05D-9B4A-8216-FE632972EB74</keyObject>
+<referredKeyID>324414FE-D05D-9B4A-8216-FE632972EB74</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

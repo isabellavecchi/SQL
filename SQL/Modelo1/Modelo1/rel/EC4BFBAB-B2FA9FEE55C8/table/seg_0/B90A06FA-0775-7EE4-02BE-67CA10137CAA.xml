@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B90A06FA-0775-7EE4-02BE-67CA10137CAA" name="TB_ATOR_ATRIZ">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:44:57 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<abbreviation>ator_atriz</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ator_atriz" id="397E3803-BC2C-14DC-5E36-509549711898">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:47:41 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="2C951393-8B4D-B33E-5547-2E34FD51E2AE">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:47:41 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidade" id="17B6E769-C7CD-3C6A-AB98-3EB237CB2D68">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:47:41 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nascimento" id="7CFE9B8C-67DA-14E0-A3E8-9DF27D544AA8">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:47:41 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_morte" id="D2A3F0B0-883E-3923-CB50-E00C0BC77FBA">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:47:41 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E4D2980-75F7-F2E3-3C67-372F82B6BEB5" name="TB_ATOR_ATRIZ_PK">
+<createdBy>isabella</createdBy>
+<createdTime>2020-09-22 19:47:41 UTC</createdTime>
+<ownerDesignName>Modelo1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="397E3803-BC2C-14DC-5E36-509549711898"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
